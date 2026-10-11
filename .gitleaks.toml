@@ -1,0 +1,6 @@
+[extend]
+useDefault = true
+
+[[allowlists]]
+description = "Generated local build outputs are audited separately before release"
+paths = ['''(^|/)\.build/''', '''(^|/)dist/''', '''(^|/)verification/''']

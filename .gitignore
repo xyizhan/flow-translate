@@ -1,0 +1,15 @@
+.build/
+.swiftpm/
+dist/
+verification/
+.DS_Store
+*.xcuserstate
+*.dSYM/
+.env
+.env.*
+!.env.example
+*.p12
+*.p8
+*.key
+*.keychain*
+__pycache__/
