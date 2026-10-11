@@ -4,7 +4,24 @@
 
 [简体中文](README.md) · [Download 0.4.0-beta.1](https://github.com/xyizhan/flow-translate/releases/tag/v0.4.0-beta.1) · [MIT License](LICENSE)
 
-<img src="docs/assets/lookup-light.png" width="350" alt="Contextual translation card">
+## Keep your reading in flow
+
+<p align="center">
+  <a href="docs/assets/posters/01-contextual-lookup.png"><img src="docs/assets/posters/01-contextual-lookup.png" width="32%" alt="Contextual word lookup: tap Option to understand bank as a riverbank in its sentence"></a>
+  <a href="docs/assets/posters/02-region-translation.png"><img src="docs/assets/posters/02-region-translation.png" width="32%" alt="Region translation: select English in papers, technical documentation, or images and read the translation beside it"></a>
+  <a href="docs/assets/posters/03-vocabulary-open-source.png"><img src="docs/assets/posters/03-vocabulary-open-source.png" width="32%" alt="Save words with their sentences, review with spaced practice, and export to Anki; open source with your choice of translation provider"></a>
+</p>
+<p align="center"><sub>Posters are in Chinese; click to enlarge. Illustrated windows are feature mockups. Actual app screenshots appear below.</sub></p>
+
+| Reading scenario | Try this | What it helps with |
+| --- | --- | --- |
+| An unfamiliar word in an English article | Point at the word and tap left Option | Understand the meaning in its sentence, such as bank meaning a riverbank |
+| A paragraph in a paper, technical document, or image | Option + drag, or Option + R | Read the translation beside the source with less copying and window switching |
+| A word you want to remember | Save it with the card's star button | Keep its definition and sentence for review, or export to Anki |
+
+**Local OCR, your choice of translation service.** API mode sends recognized text and relevant context, not screenshots. Connect DeepSeek or an OpenAI-compatible API; your key stays in macOS Keychain.
+
+<p align="center"><a href="https://github.com/xyizhan/flow-translate/releases/tag/v0.4.0-beta.1"><strong>Download the macOS preview</strong></a> · <a href="#configure">Configure your service</a> · <a href="#use">Learn the gestures</a></p>
 
 ## Install
 
@@ -51,6 +68,12 @@ Enable **Screen Recording** for pointer / region OCR and **Accessibility** for g
 | Escape | Cancel selection or close the active card |
 
 Cards support copy, pronunciation, save, and pin. Search saved words, review them with spaced practice, and export CSV, Anki APKG, or a plain word list. Automatic hover and ordinary-click lookup are opt-in. Customize gestures, exclusions, languages, appearance, and startup in Settings. Settings has an English interface; some runtime messages remain Chinese.
+
+## Compact reading cards
+
+Warm light and dark themes adapt to the content and keep the translation beside your reading. Actual app screenshots:
+
+<p align="center"><img src="docs/assets/lookup-light.png" width="350" alt="Actual app screenshot: light contextual translation card"> <img src="docs/assets/lookup-dark.png" width="350" alt="Actual app screenshot: dark contextual translation card"></p>
 
 ## Privacy
 

@@ -5,9 +5,26 @@
 
 Flow Translate 是原生 macOS 屏幕翻译工具。轻按 Option 取词，拖动框选一段文字，用紧凑的阅读卡片理解词义，再回到原文。支持自己的 DeepSeek / OpenAI 兼容 API，也可选择 Apple 系统翻译。
 
-**当前发布：0.4.0-beta.1，首个公开预览版。** 下载包适用于 **Apple Silicon（M1 或更新芯片）+ macOS 15 或更新版本**。尚无 Developer ID 签名及 Apple 公证，首次打开需要按下方步骤确认。Intel、Windows、Linux 没有已验证的安装包。应用免费；API 用量由服务商另行计费，**不附带 API Key**。
+## 阅读不断线
 
-<p align="center"><img src="docs/assets/lookup-light.png" width="350" alt="浅色语境词典卡片"> <img src="docs/assets/lookup-dark.png" width="350" alt="深色语境词典卡片"></p>
+<p align="center">
+  <a href="docs/assets/posters/01-contextual-lookup.png"><img src="docs/assets/posters/01-contextual-lookup.png" width="32%" alt="读英文，别让生词打断你：轻按 Option，结合所在句理解 bank 的河岸含义"></a>
+  <a href="docs/assets/posters/02-region-translation.png"><img src="docs/assets/posters/02-region-translation.png" width="32%" alt="遇到一整段，框起来接着读：框选论文、技术文档或图片里的英文，就地查看译文"></a>
+  <a href="docs/assets/posters/03-vocabulary-open-source.png"><img src="docs/assets/posters/03-vocabulary-open-source.png" width="32%" alt="查过的词，留给未来的你：收藏词义与原句、间隔复习、导出 Anki，免费开源并支持自选翻译服务"></a>
+</p>
+<p align="center"><sub>点击海报查看大图。海报中的窗口为功能示意，实际界面见下方阅读卡片。</sub></p>
+
+| 阅读场景 | 怎么用 | 帮你解决什么 |
+| --- | --- | --- |
+| 读英文文章，遇到一词多义 | 鼠标停在词上，轻按左 Option | 结合所在句理解词义，例如 bank 在河岸场景中的含义 |
+| 看论文、技术文档或图片里的英文 | Option + 拖动，或 Option + R 框选 | 在原文旁读懂整段，减少复制和切换页面 |
+| 想记住刚查过的词 | 点击卡片星标，之后在生词本复习 | 保存词义、原句与译文，也能导出 Anki |
+
+**截图在本机 OCR，自选翻译服务。** API 模式只发送识别出的文字和相关语境，不上传截图；支持 DeepSeek / OpenAI 兼容 API，Key 保存在系统钥匙串。
+
+<p align="center"><a href="https://github.com/xyizhan/flow-translate/releases/tag/v0.4.0-beta.1"><strong>下载 macOS 公开预览版</strong></a> · <a href="#三分钟开始使用">三分钟开始使用</a> · <a href="docs/CONFIGURATION.md">查看配置说明</a></p>
+
+**当前发布：0.4.0-beta.1，首个公开预览版。** 下载包适用于 **Apple Silicon（M1 或更新芯片）+ macOS 15 或更新版本**。尚无 Developer ID 签名及 Apple 公证，首次打开需要按下方步骤确认。Intel、Windows、Linux 没有已验证的安装包。应用免费；API 用量由服务商另行计费，**不附带 API Key**。
 
 ## 下载安装
 
@@ -72,6 +89,12 @@ shasum -a 256 Flow-Translate-0.4.0-beta.1-macos-arm64.dmg
 | Esc | 取消框选或关闭当前译文卡片 |
 
 卡片支持复制、发音、收藏和固定；固定的卡片会保留。英语发音可选美式 / 英式，重复点击发音切换慢速。菜单栏可暂停取词，快捷键冲突时可在设置中重新绑定。
+
+## 紧凑的阅读卡片
+
+暖白与深色两种主题，按内容调整大小，让译文留在原文旁边。以下为应用实际界面：
+
+<p align="center"><img src="docs/assets/lookup-light.png" width="350" alt="Flow Translate 实际界面：暖白主题语境词典卡片"> <img src="docs/assets/lookup-dark.png" width="350" alt="Flow Translate 实际界面：深色主题语境词典卡片"></p>
 
 ## 还能做什么
 
